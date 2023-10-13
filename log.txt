@@ -1,0 +1,666 @@
+ElasticNet RMSPE:, 5.082998879241963
+ElasticNet5000 RMSPE:, 5.082998879241963
+Lasso RMSPE:, 5.388372159894024
+Lasso5000 RMSPE:, 5.388372159894024
+LinearRegression RMSPE:, 5.388069278251863
+RANSACRegressor RMSPE:, 5.359975993745566
+RANSACRegressor500 RMSPE:, 5.359975993745566
+RANSACRegressor2000 RMSPE:, 4.727849214558558
+
+
+ElasticNet RMSPE:, 5.082998879241963
+ElasticNet5000 RMSPE:, 5.082998879241963
+Lasso RMSPE:, 5.388372159894024
+Lasso5000 RMSPE:, 5.388372159894024
+LinearRegression RMSPE:, 5.388069278251863
+RANSACRegressor RMSPE:, 5.359975993745566
+RANSACRegressor500 RMSPE:, 5.359975993745566
+RANSACRegressor2000 RMSPE:, 4.727849214558558
+SGDRegressor timed out
+SGDRegressor10000 timed out
+MLPRegressor timed out
+MLPRegressor500 timed out
+MLPRegressor1000 timed out
+HuberRegressor RMSPE:, 5.688946555836457
+HuberRegressor1000 RMSPE:, 5.688946555836457
+RandomForestRegressor timed out
+RandomForestRegressor500 timed out
+RandomForestRegressor1000 timed out
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=7.29201e-18): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Ridge RMSPE:, 5.388058866846075
+ExtraTreesRegressor timed out
+ARDRegression RMSPE:, 5.388566921578829
+AdaBoostRegressor timed out
+BaggingRegressor RMSPE:, 5.080395505585038
+BayesianRidge RMSPE:, 5.388047687742929
+Exception in thread Thread-30 (run_model_fit):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/tmp/ipykernel_31/1431225189.py", line 32, in run_model_fit
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/cross_decomposition/_pls.py", line 251, in fit
+    raise ValueError(
+ValueError: `n_components` upper bound is 1. Got 2 instead. Reduce `n_components`.
+'CCA' object has no attribute '_x_mean'
+DecisionTreeRegressor RMSPE:, 5.083544149400538
+DummyRegressor RMSPE:, 4.965722187164272
+ElasticNetCV RMSPE:, 4.9570455170435945
+ExtraTreeRegressor RMSPE:, 5.083544149400538
+Exception in thread Thread-35 (run_model_fit):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/tmp/ipykernel_31/1431225189.py", line 32, in run_model_fit
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_glm/glm.py", line 226, in fit
+    raise ValueError(
+ValueError: Some value(s) of y are out of the valid range of the loss 'HalfGammaLoss'.
+'GammaRegressor' object has no attribute 'coef_'
+
+ 
+GradientBoostingRegressor RMSPE:, 5.1892046288675955
+HistGradientBoostingRegressor RMSPE:, 5.09921695322174
+Exception in thread Thread-9 (run_model_fit):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/tmp/ipykernel_32/3056862928.py", line 32, in run_model_fit
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/isotonic.py", line 351, in fit
+    X, y = self._build_y(X, y, sample_weight)
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/isotonic.py", line 266, in _build_y
+    self._check_input_data_shape(X)
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/isotonic.py", line 250, in _check_input_data_shape
+    raise ValueError(msg)
+ValueError: Isotonic regression input X should be a 1d array or 2d array with 1 feature
+HuberRegressor RMSPE:, 5.688946555836457
+Isotonic regression input X should be a 1d array or 2d array with 1 feature
+KNeighborsRegressor RMSPE:, 4.398642418324413
+Lars RMSPE:, 272.60663335539124
+LarsCV RMSPE:, 5.359584590395915
+Lasso RMSPE:, 5.388372159894024
+LassoCV RMSPE:, 4.957044478769663
+LassoLars RMSPE:, 5.388345419994054
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_least_angle.py:678: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 35 iterations, alpha=3.634e-07, previous alpha=3.612e-07, with an active set of 22 regressors.
+  warnings.warn(
+LassoLarsCV RMSPE:, 5.3881094129622555
+LassoLarsIC RMSPE:, 5.388054001048773
+LinearRegression RMSPE:, 5.388069278251863
+LinearSVR timed out
+MLPRegressor timed out
+NuSVR timed out
+OrthogonalMatchingPursuit RMSPE:, 6.268299431845518
+OrthogonalMatchingPursuitCV RMSPE:, 5.434393963208661
+Exception in thread Thread-19 (run_model_fit):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/tmp/ipykernel_32/1291671226.py", line 32, in run_model_fit
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/cross_decomposition/_pls.py", line 251, in fit
+    raise ValueError(
+ValueError: `n_components` upper bound is 1. Got 2 instead. Reduce `n_components`.
+'PLSCanonical' object has no attribute '_x_mean'
+PLSRegression RMSPE:, 5.45471084455142
+PassiveAggressiveRegressor RMSPE:, 466.0455516424008
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:289: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+PoissonRegressor RMSPE:, 4.965722181106276
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_quantile.py:186: FutureWarning: The default solver will change from 'interior-point' to 'highs' in version 1.4. Set `solver='highs'` or to the desired solver to silence this warning.
+  warnings.warn(
+Exception in thread Thread-23 (run_model_fit):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/tmp/ipykernel_32/1291671226.py", line 32, in run_model_fit
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_quantile.py", line 206, in fit
+    raise ValueError(
+ValueError: Solver interior-point is not anymore available in SciPy >= 1.11.0.
+'QuantileRegressor' object has no attribute 'coef_'
+RANSACRegressor RMSPE:, 5.359975993745566
+
+Lars RMSPE:, 272.60663335539124
+LarsCV RMSPE:, 5.359584590395915
+Lasso RMSPE:, 5.388372159894024
+LassoCV RMSPE:, 4.957044478769663
+LassoLars RMSPE:, 5.388345419994054
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_least_angle.py:678: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 35 iterations, alpha=3.634e-07, previous alpha=3.612e-07, with an active set of 22 regressors.
+  warnings.warn(
+LassoLarsCV RMSPE:, 5.3881094129622555
+LassoLarsIC RMSPE:, 5.388054001048773
+LinearRegression RMSPE:, 5.388069278251863
+LinearSVR timed out
+MLPRegressor timed out
+NuSVR timed out
+OrthogonalMatchingPursuit RMSPE:, 6.268299431845518
+OrthogonalMatchingPursuitCV RMSPE:, 5.434393963208661
+Exception in thread Thread-19 (run_model_fit):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/tmp/ipykernel_32/1291671226.py", line 32, in run_model_fit
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/cross_decomposition/_pls.py", line 251, in fit
+    raise ValueError(
+ValueError: `n_components` upper bound is 1. Got 2 instead. Reduce `n_components`.
+'PLSCanonical' object has no attribute '_x_mean'
+PLSRegression RMSPE:, 5.45471084455142
+PassiveAggressiveRegressor RMSPE:, 466.0455516424008
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_linear_loss.py:289: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+PoissonRegressor RMSPE:, 4.965722181106276
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_quantile.py:186: FutureWarning: The default solver will change from 'interior-point' to 'highs' in version 1.4. Set `solver='highs'` or to the desired solver to silence this warning.
+  warnings.warn(
+Exception in thread Thread-23 (run_model_fit):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/tmp/ipykernel_32/1291671226.py", line 32, in run_model_fit
+  File "/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_quantile.py", line 206, in fit
+    raise ValueError(
+ValueError: Solver interior-point is not anymore available in SciPy >= 1.11.0.
+'QuantileRegressor' object has no attribute 'coef_'
+RANSACRegressor RMSPE:, 5.359975993745566
+RadiusNeighborsRegressor RMSPE:, 5.059954191516948
+RandomForestRegressor timed out
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=7.29201e-18): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Ridge RMSPE:, 5.388058866846075
+RidgeCV RMSPE:, 157.94250530491826
+SGDRegressor timed out
+SVR timed out
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_glm/glm.py:284: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res)
+TweedieRegressor RMSPE:, 5.0571672735383135
+
+
+C:\Py\rossman-store-sales\venv\Scripts\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2023.1.2/plugins/python-ce/helpers/pydev/pydevd.py" --multiprocess --qt-support=auto --client 127.0.0.1 --port 56865 --file C:\Py\rossman-store-sales\main.py 
+Connected to pydev debugger (build 231.9011.38)
+2023-09-21 00:39:19.951945 predict rossman sales load_data
+rossmann-store-sales/input\data.pkl
+rossmann-store-sales/input\sample_submission.csv
+rossmann-store-sales/input\store.csv
+rossmann-store-sales/input\test.csv
+rossmann-store-sales/input\train.csv
+2023-09-21 00:39:20.521967 predict rossman sales design_features
+Open                      uint32
+Promo                     uint32
+CompetitionDistance      float64
+Promo2                     int64
+StoreType_b                 bool
+StoreType_c                 bool
+StoreType_d                 bool
+Assortment_b                bool
+Assortment_c                bool
+DayOfWeek_1                 bool
+DayOfWeek_2                 bool
+DayOfWeek_3                 bool
+DayOfWeek_4                 bool
+DayOfWeek_5                 bool
+DayOfWeek_6                 bool
+StateHoliday_a              bool
+StateHoliday_b              bool
+StateHoliday_c              bool
+SchoolHoliday_1             bool
+Days Since Promo           int64
+DaysSincePromoBuckets      int64
+trend                    float64
+trend_squared            float64
+sin(1,freq=W-SUN)        float64
+cos(1,freq=W-SUN)        float64
+sin(2,freq=W-SUN)        float64
+cos(2,freq=W-SUN)        float64
+sin(3,freq=W-SUN)        float64
+cos(3,freq=W-SUN)        float64
+sin(1,freq=A-DEC)        float64
+cos(1,freq=A-DEC)        float64
+sin(2,freq=A-DEC)        float64
+cos(2,freq=A-DEC)        float64
+sin(3,freq=A-DEC)        float64
+cos(3,freq=A-DEC)        float64
+sin(4,freq=A-DEC)        float64
+cos(4,freq=A-DEC)        float64
+sin(5,freq=A-DEC)        float64
+cos(5,freq=A-DEC)        float64
+sin(6,freq=A-DEC)        float64
+cos(6,freq=A-DEC)        float64
+sin(7,freq=A-DEC)        float64
+cos(7,freq=A-DEC)        float64
+sin(8,freq=A-DEC)        float64
+cos(8,freq=A-DEC)        float64
+sin(9,freq=A-DEC)        float64
+cos(9,freq=A-DEC)        float64
+sin(10,freq=A-DEC)       float64
+cos(10,freq=A-DEC)       float64
+sin(11,freq=A-DEC)       float64
+cos(11,freq=A-DEC)       float64
+sin(12,freq=A-DEC)       float64
+cos(12,freq=A-DEC)       float64
+dtype: object
+Index(['Open', 'Promo', 'CompetitionDistance', 'Promo2', 'StoreType_b',
+       'StoreType_c', 'StoreType_d', 'Assortment_b', 'Assortment_c',
+       'DayOfWeek_1', 'DayOfWeek_2', 'DayOfWeek_3', 'DayOfWeek_4',
+       'DayOfWeek_5', 'DayOfWeek_6', 'StateHoliday_a', 'StateHoliday_b',
+       'StateHoliday_c', 'SchoolHoliday_1', 'Days Since Promo',
+       'DaysSincePromoBuckets', 'trend', 'trend_squared', 'sin(1,freq=W-SUN)',
+       'cos(1,freq=W-SUN)', 'sin(2,freq=W-SUN)', 'cos(2,freq=W-SUN)',
+       'sin(3,freq=W-SUN)', 'cos(3,freq=W-SUN)', 'sin(1,freq=A-DEC)',
+       'cos(1,freq=A-DEC)', 'sin(2,freq=A-DEC)', 'cos(2,freq=A-DEC)',
+       'sin(3,freq=A-DEC)', 'cos(3,freq=A-DEC)', 'sin(4,freq=A-DEC)',
+       'cos(4,freq=A-DEC)', 'sin(5,freq=A-DEC)', 'cos(5,freq=A-DEC)',
+       'sin(6,freq=A-DEC)', 'cos(6,freq=A-DEC)', 'sin(7,freq=A-DEC)',
+       'cos(7,freq=A-DEC)', 'sin(8,freq=A-DEC)', 'cos(8,freq=A-DEC)',
+       'sin(9,freq=A-DEC)', 'cos(9,freq=A-DEC)', 'sin(10,freq=A-DEC)',
+       'cos(10,freq=A-DEC)', 'sin(11,freq=A-DEC)', 'cos(11,freq=A-DEC)',
+       'sin(12,freq=A-DEC)', 'cos(12,freq=A-DEC)'],
+      dtype='object')
+2023-09-21 00:39:20.984387 predict rossman sales init_list_of_models
+2023-09-21 00:39:21.033593 LinearRegression prediction start
+2023-09-21 00:39:21.058614 XGBRegressor prediction start
+2023-09-21 00:39:21.082636 LinearRegression -> XGBRegressor prediction start
+2023-09-21 00:39:21.107659 RANSACRegressor500 prediction start
+2023-09-21 00:39:21.132681 RANSACRegressor1000 prediction start
+2023-09-21 00:39:21.157704 RANSACRegressor2000 prediction start
+2023-09-21 00:39:21.182727 LinearRegression -> RANSACRegressor500 prediction start
+2023-09-21 00:39:21.207750 LinearRegression -> RANSACRegressor1000 prediction start
+2023-09-21 00:39:21.233773 LinearRegression -> RANSACRegressor2000 prediction start
+2023-09-21 00:39:21.258796 MLPRegressor prediction start
+2023-09-21 00:39:21.284821 MLPRegressor500 prediction start
+2023-09-21 00:39:21.309842 MLPRegressor1000 prediction start
+2023-09-21 00:39:21.334865 ExtraTreeRegressor prediction start
+2023-09-21 00:39:21.359888 LinearRegression -> MLPRegressor prediction start
+2023-09-21 00:39:21.384911 LinearRegression -> MLPRegressor500 prediction start
+2023-09-21 00:39:21.409933 LinearRegression -> MLPRegressor1000 prediction start
+2023-09-21 00:39:21.434956 LinearRegression -> ExtraTreeRegressor prediction start
+2023-09-21 00:39:21.460980 KNeighborsRegressor 5 uniform auto prediction start
+2023-09-21 00:39:21.488005 KNeighborsRegressor 5 uniform ball_tree prediction start
+2023-09-21 00:39:21.517031 KNeighborsRegressor 5 uniform kd_tree prediction start
+2023-09-21 00:39:21.542054 KNeighborsRegressor 5 uniform brute prediction start
+2023-09-21 00:39:21.566075 KNeighborsRegressor 5 distance auto prediction start
+2023-09-21 00:39:21.594101 KNeighborsRegressor 5 distance ball_tree prediction start
+2023-09-21 00:39:21.623127 KNeighborsRegressor 5 distance kd_tree prediction start
+2023-09-21 00:39:21.651152 KNeighborsRegressor 5 distance brute prediction start
+2023-09-21 00:39:21.681180 KNeighborsRegressor 10 uniform auto prediction start
+2023-09-21 00:39:21.709205 KNeighborsRegressor 10 uniform ball_tree prediction start
+2023-09-21 00:39:21.738232 KNeighborsRegressor 10 uniform kd_tree prediction start
+2023-09-21 00:39:21.767258 KNeighborsRegressor 10 uniform brute prediction start
+2023-09-21 00:39:21.795285 KNeighborsRegressor 10 distance auto prediction start
+2023-09-21 00:39:21.822309 KNeighborsRegressor 10 distance ball_tree prediction start
+2023-09-21 00:39:21.850333 KNeighborsRegressor 10 distance kd_tree prediction start
+2023-09-21 00:39:21.879361 KNeighborsRegressor 10 distance brute prediction start
+2023-09-21 00:39:21.908386 KNeighborsRegressor 15 uniform auto prediction start
+2023-09-21 00:39:21.937412 KNeighborsRegressor 15 uniform ball_tree prediction start
+2023-09-21 00:39:21.964437 KNeighborsRegressor 15 uniform kd_tree prediction start
+2023-09-21 00:39:21.994485 KNeighborsRegressor 15 uniform brute prediction start
+2023-09-21 00:39:22.024512 KNeighborsRegressor 15 distance auto prediction start
+2023-09-21 00:39:22.053538 KNeighborsRegressor 15 distance ball_tree prediction start
+2023-09-21 00:39:22.084567 KNeighborsRegressor 15 distance kd_tree prediction start
+2023-09-21 00:39:22.112593 KNeighborsRegressor 15 distance brute prediction start
+2023-09-21 00:39:22.140618 LinearRegression -> KNeighborsRegressor 5 uniform auto prediction start
+2023-09-21 00:39:22.167644 LinearRegression -> KNeighborsRegressor 5 uniform ball_tree prediction start
+2023-09-21 00:39:22.194667 LinearRegression -> KNeighborsRegressor 5 uniform kd_tree prediction start
+2023-09-21 00:39:22.226696 LinearRegression -> KNeighborsRegressor 5 uniform brute prediction start
+2023-09-21 00:39:22.253720 LinearRegression -> KNeighborsRegressor 5 distance auto prediction start
+2023-09-21 00:39:22.285750 LinearRegression -> KNeighborsRegressor 5 distance ball_tree prediction start
+2023-09-21 00:39:22.316778 LinearRegression -> KNeighborsRegressor 5 distance kd_tree prediction start
+2023-09-21 00:39:22.349808 LinearRegression -> KNeighborsRegressor 5 distance brute prediction start
+2023-09-21 00:39:22.378834 LinearRegression -> KNeighborsRegressor 10 uniform auto prediction start
+2023-09-21 00:39:22.418870 LinearRegression -> KNeighborsRegressor 10 uniform ball_tree prediction start
+2023-09-21 00:39:22.883353 LinearRegression -> KNeighborsRegressor 10 uniform kd_tree prediction start
+2023-09-21 00:39:22.912380 LinearRegression -> KNeighborsRegressor 10 uniform brute prediction start
+2023-09-21 00:39:22.941406 LinearRegression -> KNeighborsRegressor 10 distance auto prediction start
+2023-09-21 00:39:22.966428 LinearRegression -> KNeighborsRegressor 10 distance ball_tree prediction start
+2023-09-21 00:39:22.992452 LinearRegression -> KNeighborsRegressor 10 distance kd_tree prediction start
+2023-09-21 00:39:23.018475 LinearRegression -> KNeighborsRegressor 10 distance brute prediction start
+2023-09-21 00:39:23.046501 LinearRegression -> KNeighborsRegressor 15 uniform auto prediction start
+2023-09-21 00:39:23.074527 LinearRegression -> KNeighborsRegressor 15 uniform ball_tree prediction start
+2023-09-21 00:39:23.102552 LinearRegression -> KNeighborsRegressor 15 uniform kd_tree prediction start
+2023-09-21 00:39:23.131578 LinearRegression -> KNeighborsRegressor 15 uniform brute prediction start
+2023-09-21 00:39:23.156601 LinearRegression -> KNeighborsRegressor 15 distance auto prediction start
+2023-09-21 00:39:23.182625 LinearRegression -> KNeighborsRegressor 15 distance ball_tree prediction start
+2023-09-21 00:39:23.208648 LinearRegression -> KNeighborsRegressor 15 distance kd_tree prediction start
+2023-09-21 00:39:23.233671 LinearRegression -> KNeighborsRegressor 15 distance brute prediction start
+LinearRegression RMSPE:, 5.203286729659983
+2023-09-21 00:39:29.748917 LinearRegression prediction complete (00:00:08)
+XGBRegressor RMSPE:, 3.846860503193417
+2023-09-21 00:39:46.327211 XGBRegressor prediction complete (00:00:25)
+LinearRegression -> XGBRegressor RMSPE:, 3.836543553045642
+2023-09-21 00:39:54.371602 LinearRegression -> XGBRegressor prediction complete (00:00:33)
+RANSACRegressor500 RMSPE:, 126943.56461213209
+2023-09-21 00:41:10.254335 RANSACRegressor500 prediction complete (00:01:49)
+C:\Py\rossman-store-sales\venv\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:1625: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+C:\Py\rossman-store-sales\venv\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:1625: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+RANSACRegressor1000 RMSPE:, 126943.56461213209
+2023-09-21 00:42:39.889413 RANSACRegressor1000 prediction complete (00:03:18)
+C:\Py\rossman-store-sales\venv\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:1625: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+RANSACRegressor2000 RMSPE:, 5.8090370771751445
+2023-09-21 00:45:02.257070 RANSACRegressor2000 prediction complete (00:05:41)
+LinearRegression -> RANSACRegressor500 RMSPE:, 384788.38637135335
+2023-09-21 00:45:03.793814 LinearRegression -> RANSACRegressor500 prediction complete (00:05:42)
+LinearRegression -> RANSACRegressor1000 RMSPE:, 384788.38637135335
+2023-09-21 00:45:05.235736 LinearRegression -> RANSACRegressor1000 prediction complete (00:05:44)
+LinearRegression -> RANSACRegressor2000 RMSPE:, 6.341281846764143
+2023-09-21 00:46:06.828503 LinearRegression -> RANSACRegressor2000 prediction complete (00:06:45)
+C:\Py\rossman-store-sales\venv\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+MLPRegressor RMSPE:, 5.741037904244384
+2023-09-21 01:13:33.281878 MLPRegressor prediction complete (00:34:12)
+C:\Py\rossman-store-sales\venv\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+MLPRegressor500 RMSPE:, 4.932751815784328
+2023-09-21 01:24:11.174505 MLPRegressor500 prediction complete (00:44:49)
+MLPRegressor1000 RMSPE:, 4.932751815784328
+2023-09-21 01:24:14.195255 MLPRegressor1000 prediction complete (00:44:52)
+ExtraTreeRegressor RMSPE:, 3.067152560279608
+2023-09-21 01:24:15.271325 ExtraTreeRegressor prediction complete (00:44:53)
+LinearRegression -> MLPRegressor RMSPE:, 4.947139547803066
+2023-09-21 01:24:19.120328 LinearRegression -> MLPRegressor prediction complete (00:44:57)
+LinearRegression -> MLPRegressor500 RMSPE:, 5.245453336784823
+2023-09-21 01:24:22.827807 LinearRegression -> MLPRegressor500 prediction complete (00:45:01)
+LinearRegression -> MLPRegressor1000 RMSPE:, 5.245453336784823
+2023-09-21 01:39:15.555976 LinearRegression -> MLPRegressor1000 prediction complete (00:59:54)
+LinearRegression -> ExtraTreeRegressor RMSPE:, 3.0671382988950184
+2023-09-21 01:39:16.682014 LinearRegression -> ExtraTreeRegressor prediction complete (00:59:55)
+KNeighborsRegressor 5 uniform auto RMSPE:, 4.284881673412111
+2023-09-21 01:50:50.096438 KNeighborsRegressor 5 uniform auto prediction complete (01:11:28)
+KNeighborsRegressor 5 uniform ball_tree RMSPE:, 4.291502454850544
+2023-09-21 01:52:04.403647 KNeighborsRegressor 5 uniform ball_tree prediction complete (01:12:42)
+KNeighborsRegressor 5 uniform kd_tree RMSPE:, 4.291728665851537
+2023-09-21 01:54:00.507546 KNeighborsRegressor 5 uniform kd_tree prediction complete (01:14:38)
+KNeighborsRegressor 5 uniform brute RMSPE:, 4.284881673412111
+2023-09-21 02:05:29.519021 KNeighborsRegressor 5 uniform brute prediction complete (01:26:07)
+KNeighborsRegressor 5 distance auto RMSPE:, 2.9650591518370573
+2023-09-21 02:16:57.994167 KNeighborsRegressor 5 distance auto prediction complete (01:37:36)
+KNeighborsRegressor 5 distance ball_tree RMSPE:, 2.96836118407074
+2023-09-21 02:18:13.405956 KNeighborsRegressor 5 distance ball_tree prediction complete (01:38:51)
+KNeighborsRegressor 5 distance kd_tree RMSPE:, 2.96836118407074
+2023-09-21 02:20:10.459296 KNeighborsRegressor 5 distance kd_tree prediction complete (01:40:48)
+KNeighborsRegressor 5 distance brute RMSPE:, 2.9650591518370573
+2023-09-21 02:31:29.757114 KNeighborsRegressor 5 distance brute prediction complete (01:52:08)
+KNeighborsRegressor 10 uniform auto RMSPE:, 4.500479136231402
+2023-09-21 02:43:26.680382 KNeighborsRegressor 10 uniform auto prediction complete (02:04:04)
+KNeighborsRegressor 10 uniform ball_tree RMSPE:, 4.502061523986035
+2023-09-21 02:44:48.306105 KNeighborsRegressor 10 uniform ball_tree prediction complete (02:05:26)
+KNeighborsRegressor 10 uniform kd_tree RMSPE:, 4.499817712058701
+2023-09-21 02:46:55.672521 KNeighborsRegressor 10 uniform kd_tree prediction complete (02:07:33)
+KNeighborsRegressor 10 uniform brute RMSPE:, 4.500479136231402
+2023-09-21 02:59:12.753629 KNeighborsRegressor 10 uniform brute prediction complete (02:19:50)
+KNeighborsRegressor 10 distance auto RMSPE:, 3.0468619851681455
+2023-09-21 03:11:29.244291 KNeighborsRegressor 10 distance auto prediction complete (02:32:07)
+KNeighborsRegressor 10 distance ball_tree RMSPE:, 3.047886418871323
+2023-09-21 03:12:52.266448 KNeighborsRegressor 10 distance ball_tree prediction complete (02:33:30)
+KNeighborsRegressor 10 distance kd_tree RMSPE:, 3.047886418871323
+2023-09-21 03:14:59.490724 KNeighborsRegressor 10 distance kd_tree prediction complete (02:35:37)
+
+
+C:\Py\rossman-store-sales\venv\Scripts\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2023.1.2/plugins/python-ce/helpers/pydev/pydevd.py" --multiprocess --qt-support=auto --client 127.0.0.1 --port 61670 --file C:\py\rossman-store-sales\main.py 
+Connected to pydev debugger (build 231.9011.38)
+2023-09-21 03:30:52.916430 predict rossman sales load_data
+rossmann-store-sales/input\data.pkl
+rossmann-store-sales/input\sample_submission.csv
+rossmann-store-sales/input\store.csv
+rossmann-store-sales/input\test.csv
+rossmann-store-sales/input\train.csv
+2023-09-21 03:30:53.484946 predict rossman sales design_features
+Open                      uint32
+Promo                     uint32
+CompetitionDistance      float64
+Promo2                     int64
+StoreType_b                 bool
+StoreType_c                 bool
+StoreType_d                 bool
+Assortment_b                bool
+Assortment_c                bool
+DayOfWeek_1                 bool
+DayOfWeek_2                 bool
+DayOfWeek_3                 bool
+DayOfWeek_4                 bool
+DayOfWeek_5                 bool
+DayOfWeek_6                 bool
+StateHoliday_a              bool
+StateHoliday_b              bool
+StateHoliday_c              bool
+SchoolHoliday_1             bool
+Days Since Promo           int64
+DaysSincePromoBuckets      int64
+trend                    float64
+trend_squared            float64
+sin(1,freq=W-SUN)        float64
+cos(1,freq=W-SUN)        float64
+sin(2,freq=W-SUN)        float64
+cos(2,freq=W-SUN)        float64
+sin(3,freq=W-SUN)        float64
+cos(3,freq=W-SUN)        float64
+sin(1,freq=A-DEC)        float64
+cos(1,freq=A-DEC)        float64
+sin(2,freq=A-DEC)        float64
+cos(2,freq=A-DEC)        float64
+sin(3,freq=A-DEC)        float64
+cos(3,freq=A-DEC)        float64
+sin(4,freq=A-DEC)        float64
+cos(4,freq=A-DEC)        float64
+sin(5,freq=A-DEC)        float64
+cos(5,freq=A-DEC)        float64
+sin(6,freq=A-DEC)        float64
+cos(6,freq=A-DEC)        float64
+sin(7,freq=A-DEC)        float64
+cos(7,freq=A-DEC)        float64
+sin(8,freq=A-DEC)        float64
+cos(8,freq=A-DEC)        float64
+sin(9,freq=A-DEC)        float64
+cos(9,freq=A-DEC)        float64
+sin(10,freq=A-DEC)       float64
+cos(10,freq=A-DEC)       float64
+sin(11,freq=A-DEC)       float64
+cos(11,freq=A-DEC)       float64
+sin(12,freq=A-DEC)       float64
+cos(12,freq=A-DEC)       float64
+dtype: object
+Index(['Open', 'Promo', 'CompetitionDistance', 'Promo2', 'StoreType_b',
+       'StoreType_c', 'StoreType_d', 'Assortment_b', 'Assortment_c',
+       'DayOfWeek_1', 'DayOfWeek_2', 'DayOfWeek_3', 'DayOfWeek_4',
+       'DayOfWeek_5', 'DayOfWeek_6', 'StateHoliday_a', 'StateHoliday_b',
+       'StateHoliday_c', 'SchoolHoliday_1', 'Days Since Promo',
+       'DaysSincePromoBuckets', 'trend', 'trend_squared', 'sin(1,freq=W-SUN)',
+       'cos(1,freq=W-SUN)', 'sin(2,freq=W-SUN)', 'cos(2,freq=W-SUN)',
+       'sin(3,freq=W-SUN)', 'cos(3,freq=W-SUN)', 'sin(1,freq=A-DEC)',
+       'cos(1,freq=A-DEC)', 'sin(2,freq=A-DEC)', 'cos(2,freq=A-DEC)',
+       'sin(3,freq=A-DEC)', 'cos(3,freq=A-DEC)', 'sin(4,freq=A-DEC)',
+       'cos(4,freq=A-DEC)', 'sin(5,freq=A-DEC)', 'cos(5,freq=A-DEC)',
+       'sin(6,freq=A-DEC)', 'cos(6,freq=A-DEC)', 'sin(7,freq=A-DEC)',
+       'cos(7,freq=A-DEC)', 'sin(8,freq=A-DEC)', 'cos(8,freq=A-DEC)',
+       'sin(9,freq=A-DEC)', 'cos(9,freq=A-DEC)', 'sin(10,freq=A-DEC)',
+       'cos(10,freq=A-DEC)', 'sin(11,freq=A-DEC)', 'cos(11,freq=A-DEC)',
+       'sin(12,freq=A-DEC)', 'cos(12,freq=A-DEC)'],
+      dtype='object')
+2023-09-21 03:30:53.938394 predict rossman sales init_list_of_models
+2023-09-21 03:30:53.982447 LinearRegression prediction start
+2023-09-21 03:30:54.007470 XGBRegressor prediction start
+2023-09-21 03:30:54.032492 LinearRegression -> XGBRegressor prediction start
+2023-09-21 03:30:54.057515 XGBRegressor(n_estimators=200, early_stopping_rounds=20) prediction start
+2023-09-21 03:30:54.082539 LinearRegression -> XGBRegressor(n_estimators=200, early_stopping_rounds=20) prediction start
+2023-09-21 03:30:54.108562 XGBRegressor(n_estimators=100) prediction start
+2023-09-21 03:30:54.132584 LinearRegression -> XGBRegressor(n_estimators=100) prediction start
+2023-09-21 03:30:54.157607 XGBRegressor(max_depth=3) prediction start
+2023-09-21 03:30:54.183629 LinearRegression -> XGBRegressor(max_depth=3) prediction start
+2023-09-21 03:30:54.208652 XGBRegressor(learning_rate=0.1) prediction start
+2023-09-21 03:30:54.234675 LinearRegression -> XGBRegressor(learning_rate=0.1) prediction start
+2023-09-21 03:30:54.259719 XGBRegressor(subsample=0.8) prediction start
+2023-09-21 03:30:54.283740 LinearRegression -> XGBRegressor(subsample=0.8) prediction start
+2023-09-21 03:30:54.307763 XGBRegressor(colsample_bytree=0.5) prediction start
+2023-09-21 03:30:54.332784 LinearRegression -> XGBRegressor(colsample_bytree=0.5) prediction start
+2023-09-21 03:30:54.357807 XGBRegressor(gamma=0.2) prediction start
+2023-09-21 03:30:54.383832 LinearRegression -> XGBRegressor(gamma=0.2) prediction start
+2023-09-21 03:30:54.413859 XGBRegressor(alpha=0.5) prediction start
+2023-09-21 03:30:54.435879 LinearRegression -> XGBRegressor(alpha=0.5) prediction start
+2023-09-21 03:30:54.456897 XGBRegressor(objective="reg:squarederror") prediction start
+2023-09-21 03:30:54.483923 LinearRegression -> XGBRegressor(objective="reg:squarederror") prediction start
+2023-09-21 03:30:54.509946 XGBRegressor(eval_metric="rmse") prediction start
+2023-09-21 03:30:54.557989 LinearRegression -> XGBRegressor(eval_metric="rmse") prediction start
+2023-09-21 03:30:54.587016 XGBRegressor(early_stopping_rounds=10) prediction start
+2023-09-21 03:30:54.617044 LinearRegression -> XGBRegressor(early_stopping_rounds=10) prediction start
+2023-09-21 03:30:54.650072 XGBRegressor(n_estimators=50, max_depth=5) prediction start
+2023-09-21 03:30:54.683139 LinearRegression -> XGBRegressor(n_estimators=50, max_depth=5) prediction start
+2023-09-21 03:30:54.714167 XGBRegressor(learning_rate=0.05, subsample=0.9) prediction start
+2023-09-21 03:30:54.743192 LinearRegression -> XGBRegressor(learning_rate=0.05, subsample=0.9) prediction start
+2023-09-21 03:30:54.774222 XGBRegressor(colsample_bytree=0.8, gamma=0.3) prediction start
+2023-09-21 03:30:54.805248 LinearRegression -> XGBRegressor(colsample_bytree=0.8, gamma=0.3) prediction start
+2023-09-21 03:30:54.837278 XGBRegressor(objective="reg:linear", eval_metric="mae") prediction start
+2023-09-21 03:30:54.867306 LinearRegression -> XGBRegressor(objective="reg:linear", eval_metric="mae") prediction start
+2023-09-21 03:30:54.895332 XGBRegressor(max_depth=4, learning_rate=0.2, subsample=0.7) prediction start
+2023-09-21 03:30:54.922357 LinearRegression -> XGBRegressor(max_depth=4, learning_rate=0.2, subsample=0.7) prediction start
+2023-09-21 03:30:54.952383 XGBRegressor(colsample_bytree=0.6, gamma=0.1, objective="reg:squarederror", eval_metric="rmse") prediction start
+2023-09-21 03:30:54.979407 LinearRegression -> XGBRegressor(colsample_bytree=0.6, gamma=0.1, objective="reg:squarederror", eval_metric="rmse") prediction start
+2023-09-21 03:30:55.004430 XGBRegressor(reg_lambda=0.1) prediction start
+2023-09-21 03:30:55.029453 LinearRegression -> XGBRegressor(reg_lambda=0.1) prediction start
+2023-09-21 03:30:55.055476 XGBRegressor(alpha=0.1, reg_lambda=0.05) prediction start
+2023-09-21 03:30:55.080500 LinearRegression -> XGBRegressor(alpha=0.1, reg_lambda=0.05) prediction start
+2023-09-21 03:30:55.104522 RandomForestRegressor prediction start
+2023-09-21 03:30:55.128543 RandomForestRegressor500 prediction start
+2023-09-21 03:30:55.153565 RandomForestRegressor1000 prediction start
+2023-09-21 03:30:55.178589 LinearRegression -> RandomForestRegressor prediction start
+2023-09-21 03:30:55.202610 LinearRegression -> RandomForestReressor500 prediction start
+2023-09-21 03:30:55.575948 LinearRegression -> RandomForestRegressor1000 prediction start
+LinearRegression RMSPE:, 5.203286729659983
+2023-09-21 03:31:02.550336 LinearRegression prediction complete (00:00:08)
+XGBRegressor RMSPE:, 3.846860503193417
+2023-09-21 03:31:25.962086 XGBRegressor prediction complete (00:00:31)
+LinearRegression -> XGBRegressor RMSPE:, 3.836543553045642
+2023-09-21 03:31:35.959768 LinearRegression -> XGBRegressor prediction complete (00:00:41)
+Must have at least 1 validation dataset for early stopping.
+Must have at least 1 validation dataset for early stopping.
+XGBRegressor(n_estimators=100) RMSPE:, 3.846860503193417
+2023-09-21 03:31:47.538456 XGBRegressor(n_estimators=100) prediction complete (00:00:53)
+LinearRegression -> XGBRegressor(n_estimators=100) RMSPE:, 3.836543553045642
+2023-09-21 03:31:59.239840 LinearRegression -> XGBRegressor(n_estimators=100) prediction complete (00:01:05)
+XGBRegressor(max_depth=3) RMSPE:, 4.539665267500207
+2023-09-21 03:32:09.273601 XGBRegressor(max_depth=3) prediction complete (00:01:15)
+LinearRegression -> XGBRegressor(max_depth=3) RMSPE:, 4.5558137409525665
+2023-09-21 03:32:21.976742 LinearRegression -> XGBRegressor(max_depth=3) prediction complete (00:01:27)
+XGBRegressor(learning_rate=0.1) RMSPE:, 4.342701593297589
+2023-09-21 03:32:33.005847 XGBRegressor(learning_rate=0.1) prediction complete (00:01:38)
+LinearRegression -> XGBRegressor(learning_rate=0.1) RMSPE:, 4.328755984302229
+2023-09-21 03:32:45.446799 LinearRegression -> XGBRegressor(learning_rate=0.1) prediction complete (00:01:51)
+XGBRegressor(subsample=0.8) RMSPE:, 3.853128482417925
+2023-09-21 03:32:53.502151 XGBRegressor(subsample=0.8) prediction complete (00:01:59)
+C:\Py\rossman-store-sales\venv\lib\site-packages\xgboost\core.py:160: UserWarning: [03:32:55] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0cec3277c4d9d0165-1\xgboost\xgboost-ci-windows\src\objective\regression_obj.cu:209: reg:linear is now deprecated in favor of reg:squarederror.
+  warnings.warn(smsg, UserWarning)
+LinearRegression -> XGBRegressor(subsample=0.8) RMSPE:, 3.8617219457818295
+2023-09-21 03:33:04.736620 LinearRegression -> XGBRegressor(subsample=0.8) prediction complete (00:02:10)
+C:\Py\rossman-store-sales\venv\lib\site-packages\xgboost\core.py:160: UserWarning: [03:33:08] WARNING: C:\buildkite-agent\builds\buildkite-windows-cpu-autoscaling-group-i-0cec3277c4d9d0165-1\xgboost\xgboost-ci-windows\src\objective\regression_obj.cu:209: reg:linear is now deprecated in favor of reg:squarederror.
+  warnings.warn(smsg, UserWarning)
+XGBRegressor(colsample_bytree=0.5) RMSPE:, 3.9473290530341396
+2023-09-21 03:33:15.216654 XGBRegressor(colsample_bytree=0.5) prediction complete (00:02:20)
+LinearRegression -> XGBRegressor(colsample_bytree=0.5) RMSPE:, 3.943040011196373
+2023-09-21 03:33:25.943422 LinearRegression -> XGBRegressor(colsample_bytree=0.5) prediction complete (00:02:31)
+C:\Py\rossman-store-sales\venv\lib\site-packages\sklearn\base.py:1151: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return fit_method(estimator, *args, **kwargs)
+XGBRegressor(gamma=0.2) RMSPE:, 3.846860503193417
+2023-09-21 03:33:36.326403 XGBRegressor(gamma=0.2) prediction complete (00:02:41)
+C:\Py\rossman-store-sales\venv\lib\site-packages\sklearn\base.py:1151: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return fit_method(estimator, *args, **kwargs)
+C:\Py\rossman-store-sales\venv\lib\site-packages\sklearn\base.py:1151: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return fit_method(estimator, *args, **kwargs)
+LinearRegression -> XGBRegressor(gamma=0.2) RMSPE:, 3.836543553045642
+2023-09-21 03:33:46.299170 LinearRegression -> XGBRegressor(gamma=0.2) prediction complete (00:02:51)
+XGBRegressor(alpha=0.5) RMSPE:, 3.846860503193417
+2023-09-21 03:33:51.977343 XGBRegressor(alpha=0.5) prediction complete (00:02:57)
+LinearRegression -> XGBRegressor(alpha=0.5) RMSPE:, 3.8365437391308777
+2023-09-21 03:33:56.353653 LinearRegression -> XGBRegressor(alpha=0.5) prediction complete (00:03:01)
+XGBRegressor(objective="reg:squarederror") RMSPE:, 3.846860503193417
+2023-09-21 03:34:00.063199 XGBRegressor(objective="reg:squarederror") prediction complete (00:03:05)
+LinearRegression -> XGBRegressor(objective="reg:squarederror") RMSPE:, 3.836543553045642
+2023-09-21 03:34:04.252390 LinearRegression -> XGBRegressor(objective="reg:squarederror") prediction complete (00:03:09)
+XGBRegressor(eval_metric="rmse") RMSPE:, 3.846860503193417
+2023-09-21 03:34:07.991850 XGBRegressor(eval_metric="rmse") prediction complete (00:03:13)
+LinearRegression -> XGBRegressor(eval_metric="rmse") RMSPE:, 3.836543553045642
+2023-09-21 03:34:12.243308 LinearRegression -> XGBRegressor(eval_metric="rmse") prediction complete (00:03:17)
+Must have at least 1 validation dataset for early stopping.
+Must have at least 1 validation dataset for early stopping.
+XGBRegressor(n_estimators=50, max_depth=5) RMSPE:, 4.353950475348007
+2023-09-21 03:34:15.738528 XGBRegressor(n_estimators=50, max_depth=5) prediction complete (00:03:21)
+LinearRegression -> XGBRegressor(n_estimators=50, max_depth=5) RMSPE:, 4.412651458864251
+2023-09-21 03:34:19.829664 LinearRegression -> XGBRegressor(n_estimators=50, max_depth=5) prediction complete (00:03:25)
+XGBRegressor(learning_rate=0.05, subsample=0.9) RMSPE:, 4.623484434074584
+2023-09-21 03:34:23.469048 XGBRegressor(learning_rate=0.05, subsample=0.9) prediction complete (00:03:28)
+LinearRegression -> XGBRegressor(learning_rate=0.05, subsample=0.9) RMSPE:, 4.675835737085799
+2023-09-21 03:34:28.148072 LinearRegression -> XGBRegressor(learning_rate=0.05, subsample=0.9) prediction complete (00:03:33)
+XGBRegressor(colsample_bytree=0.8, gamma=0.3) RMSPE:, 3.85115546654331
+2023-09-21 03:34:31.840732 XGBRegressor(colsample_bytree=0.8, gamma=0.3) prediction complete (00:03:37)
+LinearRegression -> XGBRegressor(colsample_bytree=0.8, gamma=0.3) RMSPE:, 3.8602395807084617
+2023-09-21 03:34:36.096735 LinearRegression -> XGBRegressor(colsample_bytree=0.8, gamma=0.3) prediction complete (00:03:41)
+XGBRegressor(objective="reg:linear", eval_metric="mae") RMSPE:, 3.846860503193417
+2023-09-21 03:34:39.720618 XGBRegressor(objective="reg:linear", eval_metric="mae") prediction complete (00:03:44)
+LinearRegression -> XGBRegressor(objective="reg:linear", eval_metric="mae") RMSPE:, 3.836543553045642
+2023-09-21 03:34:44.002639 LinearRegression -> XGBRegressor(objective="reg:linear", eval_metric="mae") prediction complete (00:03:49)
+XGBRegressor(max_depth=4, learning_rate=0.2, subsample=0.7) RMSPE:, 4.417951440482123
+2023-09-21 03:34:47.479353 XGBRegressor(max_depth=4, learning_rate=0.2, subsample=0.7) prediction complete (00:03:52)
+LinearRegression -> XGBRegressor(max_depth=4, learning_rate=0.2, subsample=0.7) RMSPE:, 4.4486633220022345
+2023-09-21 03:34:51.618423 LinearRegression -> XGBRegressor(max_depth=4, learning_rate=0.2, subsample=0.7) prediction complete (00:03:56)
+XGBRegressor(colsample_bytree=0.6, gamma=0.1, objective="reg:squarederror", eval_metric="rmse") RMSPE:, 3.9321316650714433
+2023-09-21 03:34:55.229888 XGBRegressor(colsample_bytree=0.6, gamma=0.1, objective="reg:squarederror", eval_metric="rmse") prediction complete (00:04:00)
+LinearRegression -> XGBRegressor(colsample_bytree=0.6, gamma=0.1, objective="reg:squarederror", eval_metric="rmse") RMSPE:, 3.9080452831328336
+2023-09-21 03:34:59.515181 LinearRegression -> XGBRegressor(colsample_bytree=0.6, gamma=0.1, objective="reg:squarederror", eval_metric="rmse") prediction complete (00:04:04)
+XGBRegressor(reg_lambda=0.1) RMSPE:, 3.858178559460962
+2023-09-21 03:35:03.152483 XGBRegressor(reg_lambda=0.1) prediction complete (00:04:08)
+LinearRegression -> XGBRegressor(reg_lambda=0.1) RMSPE:, 3.8452842687771103
+2023-09-21 03:35:07.336051 LinearRegression -> XGBRegressor(reg_lambda=0.1) prediction complete (00:04:12)
+XGBRegressor(alpha=0.1, reg_lambda=0.05) RMSPE:, 3.866435083731531
+2023-09-21 03:35:11.012025 XGBRegressor(alpha=0.1, reg_lambda=0.05) prediction complete (00:04:15)
+LinearRegression -> XGBRegressor(alpha=0.1, reg_lambda=0.05) RMSPE:, 3.8233085299901264
+2023-09-21 03:35:15.259502 LinearRegression -> XGBRegressor(alpha=0.1, reg_lambda=0.05) prediction complete (00:04:20)
+Traceback (most recent call last):
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\multiprocessing\pool.py", line 576, in _handle_results
+    task = get()
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\multiprocessing\connection.py", line 256, in recv
+    return _ForkingPickler.loads(buf.getbuffer())
+_pickle.UnpicklingError: pickle data was truncated
+python-BaseException
+
+
+
+
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\multiprocessing\pool.py", line 576, in _handle_results
+    task = get()
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\multiprocessing\connection.py", line 256, in recv
+    return _ForkingPickler.loads(buf.getbuffer())
+_pickle.UnpicklingError: pickle data was truncated
+
+
+2023-09-21 13:35:15.358467 predict rossman sales done
+Traceback (most recent call last):
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\multiprocessing\util.py", line 300, in _run_finalizers
+    finalizer()
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\multiprocessing\util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "C:\Users\alexe\AppData\Local\Programs\Python\Python39\lib\multiprocessing\pool.py", line 695, in _terminate_pool
+    raise AssertionError(
+AssertionError: Cannot have cache with result_hander not alive
+
+Process finished with exit code 0
