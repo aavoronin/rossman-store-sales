@@ -1,12 +1,12 @@
-# https://www.youtube.com/watch?v=r7Am-ZGMef8
-
 import GPUtil
 from tabulate import tabulate
+import torch
+import os
+
+# https://www.youtube.com/watch?v=r7Am-ZGMef8
 
 
 def check_GPU():
-    import torch
-    import os
     print(os.environ['CUDA_PATH'])
     print(os.environ['CUDA_HOME'])
     print(os.environ['PATH'])
